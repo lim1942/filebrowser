@@ -1,4 +1,4 @@
-FROM filebrowser/filebrowser:v2
+FROM filebrowser/filebrowser:latest
 
 COPY .docker.json /.filebrowser.json
 COPY filebrowser /filebrowser
