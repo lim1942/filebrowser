@@ -8,6 +8,6 @@ jobs:
    - name: Publish to Docker Repository
      uses: elgohr/Publish-Docker-Github-Action@master
      with:
-       name: ispeakcode/docker-githubaction
+       name: lim1942/filebrowser
        username: ${{ secrets.DOCKERHUB_USERNAME }}
        password: ${{ secrets.DOCKERHUB_TOKEN }}
